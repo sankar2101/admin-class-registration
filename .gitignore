@@ -1,0 +1,16 @@
+# Backend
+node_modules/
+
+# Environment
+.env
+
+# Uploads (optional)
+uploads/
+
+# Logs
+npm-debug.log*
+
+# Frontend
+client/node_modules/
+client/dist/
+client/.env
