@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="../css/admin.css">
+</head>
+
+<body>
+    <div class="sidebar">
+        <h2>Satyaradhana</h2>
+        <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="create-class.html">Create Class</a></li>
+            <li><a href="registrations.html">Registrations</a></li>
+            <li><a href="login.html">Logout</a></li>
+
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+
+    <div class="main">
+
+        <div class="header">
+            <h1>Dashboard</h1>
+            <h3>Welcome Admin</h3>
+        </div>
+
+        <!-- Dashboard Cards -->
+
+        <div class="cards">
+
+            <div class="card"><h3>Total Classes</h3><h2>15</h2></div>
+
+            <div class="card"><h3>Total Registrations</h3><h2>240</h2></div>
+
+            <div class="card"><h3>Pending Approval</h3><h2>18</h2></div>
+
+            <div class="card"><h3>Approved Students</h3><h2>198</h2></div>
+
+        </div>
+
+        <!-- Recent Registrations -->
+
+        <h2 style="margin-top:40px;">Recent Registrations</h2>
+
+        <table>
+            <thead>
+                <tr>
+                  <th>Student Name</th>
+                  <th>Class</th>
+                  <th>Phone</th>
+                  <th>Status</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Sankar</td>
+                    <td>Bhagavad Gita</td>
+                    <td>9876543210</td>
+                    <td>Pending</td>
+                </tr>
+
+                <tr>
+                    <td>Ramesh</td>
+                    <td>Meditation</td>
+                    <td>9876501234</td>
+                    <td>Approved</td>
+                </tr>
+
+                <tr>
+                    <td>Lakshmi</td>
+                    <td>Vishnu Sahasranamam</td>
+                    <td>9876549876</td>
+                    <td>Rejected</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>

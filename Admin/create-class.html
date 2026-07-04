@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Class</title>
+    <link rel="stylesheet" href="../css/admin.css">
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+
+    <div class="sidebar">
+
+        <h2>Satyaradhana</h2>
+
+        <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="create-class.html">Create Class</a></li>
+            <li><a href="registrations.html">Registrations</a></li>
+            <li><a href="login.html">Logout</a></li>
+        </ul>
+    </div>
+
+    <!-- Main -->
+
+    <div class="main">
+
+        <div class="header">
+
+            <h1>Create New Class</h1>
+
+        </div>
+
+        <div class="card">
+
+            <form>
+
+                <label>Class Title</label>
+                <input type="text" placeholder="Bhagavad Gita Session">
+
+                <label>Description</label>
+                <textarea rows="5" placeholder="Enter class description"></textarea>
+
+                <label>Class Date</label><input type="date">
+
+                <label>Class Time</label><input type="time">
+
+                <label>Location</label>
+                <input type="text" placeholder="Chennai / Online">
+
+                <label>Maximum Students</label>
+                <input type="number" placeholder="50">
+
+                <label>Registration Deadline</label>
+                <input type="date">
+
+                <label>Status</label>
+
+                <select>
+
+                    <option>Active</option>
+                    <option>Inactive</option>
+                </select>
+
+                <button class="submit-btn">Create Class</button>
+
+            </form>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

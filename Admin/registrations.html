@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registrations</title>
+    <link rel="stylesheet" href="../css/admin.css">
+</head>
+
+<body>
+
+    <div class="sidebar">
+        <h2>Satyaradhana</h2>
+        <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="create-class.html">Create Class</a></li>
+            <li><a href="registrations.html">Registrations</a></li>
+            <li><a href="login.html">Logout</a></li>
+        </ul>
+    </div>
+
+    <div class="main">
+        <div class="header">
+            <h1>Student Registrations</h1>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Student</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>City</th>
+                    <th>Class</th>
+                    <th>Status</th>
+                    <th>Payment</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td>1</td>
+                    <td>Sankar</td>
+                    <td>sankar@gmail.com</td>
+                    <td>9876543210</td>
+                    <td>Chennai</td>
+                    <td>Bhagavad Gita</td>
+                    <td><span style="color:orange;font-weight:bold;">Pending</span></td>
+                    <td><a href="#">View</a></td>
+
+                    <td>
+                        <button class="approve">Approve</button>
+                        <button class="reject">Reject</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Krishna</td>
+                    <td>krishna@gmail.com</td>
+                    <td>9876512345</td>
+                    <td>Bangalore</td>
+                    <td>Meditation</td>
+                    <td><span style="color:green;font-weight:bold;">Approved</span></td>
+                    <td><a href="#">View</a></td>
+
+                    <td>
+
+                        <button class="approve">Approve</button>
+                        <button class="reject">Reject</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Lakshmi</td>
+                    <td>lakshmi@gmail.com</td>
+                    <td>9876598765</td>
+                    <td>Hyderabad</td>
+                    <td>Vishnu Sahasranamam</td>
+                    <td><span style="color:red;font-weight:bold;">Rejected</span></td>
+                    <td><a href="#">View</a></td>
+
+                    <td>
+
+                        <button class="approve">Approve</button>
+                        <button class="reject">Reject</button>
+                    </td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</body>
+
+</html>
